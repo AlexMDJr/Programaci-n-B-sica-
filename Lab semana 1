@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyOX5Ktly9Uwathu/s1jQRhJ",
+      "authorship_tag": "ABX9TyPq+67wTFHcF0JEnm/NtRHr",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -28,442 +28,93 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 1,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
         "id": "cLW18h2Wj22f",
-        "outputId": "0a8a44f3-a8a9-4e9f-a748-9065afcedbc1"
+        "outputId": "8b6bc4d8-68d9-4255-84ec-53c206118160"
       },
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "¿Cuál es la función de la memoria secundaria en una computadora?\n"
-          ]
-        }
-      ],
-      "source": [
-        "print (\"¿Cuál es la función de la memoria secundaria en una computadora?\")"
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "print (\"Almacenar informaciónn durante mucho tiempo, incluso después de ciclos de apagado y encendido\")"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "bdYRlOexLgnY",
-        "outputId": "d57575dc-57d0-4c84-b5f7-f1e2f0b593ca"
-      },
-      "execution_count": null,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "Almacenar informaciónn durante mucho tiempo, incluso después de ciclos de apagado y encendido\n"
-          ]
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "print (\"¿Qué es un programa?\")"
-      ],
-      "metadata": {
-        "id": "AZU9QsvJMDk-",
-        "outputId": "f496e148-2a84-43d8-aaa5-081964c45a0a",
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        }
-      },
-      "execution_count": null,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "¿Qué es un programa?\n"
-          ]
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "print (\"Es un conjunto de instrucciones que indican como realizar algún tipo de cálculo\")"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "bGyGd86gQiQA",
-        "outputId": "d388a312-0352-40b4-c1a3-146650752a2f"
-      },
-      "execution_count": null,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "Es un conjunto de instrucciones que indican como realizar algún tipo de cálculo\n"
-          ]
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "print(\"¿Cuál es la diferencia entre un compilador y un int´intérprete?\")"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "8Fiv2n3vUtMe",
-        "outputId": "0eba4d2b-8b58-44e4-bfaa-929f4331f398"
-      },
-      "execution_count": null,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "¿Cuál es la diferencia entre un compilador y un int´intérprete?\n"
-          ]
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "print (\"Un compilador traduce todo el código fuente a un archivo ejecutable antes de ejecutarlo, mientras que un intérprete traduce y ejecuta el código línea por línea en tiempo real.\")"
-      ],
-      "metadata": {
-        "id": "udjMPLViU8Mz",
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "outputId": "4fbec59e-cc5b-4f91-8bae-fbb1d2f6b2c1"
-      },
-      "execution_count": 24,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "Un compilador traduce todo el código fuente a un archivo ejecutable antes de ejecutarlo, mientras que un intérprete traduce y ejecuta el código línea por línea en tiempo real.\n"
-          ]
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "print (\"¿Cuál de los siguientes contiene “codigo máquina”?\")"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "WMwvOcq5U8cc",
-        "outputId": "7b034926-b2c8-41f1-dd22-69bd4c75b70b"
-      },
-      "execution_count": null,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "¿Cuál de los siguientes contiene “codigo máquina”?\n"
-          ]
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "print (\"El interprete de python\")"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "5d6CsduIV2sQ",
-        "outputId": "17011186-a0d8-4db8-f33e-d35a7322ae9b"
-      },
-      "execution_count": null,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "El interprete de python\n"
-          ]
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "print (\"¿Qué está mal en el siguiente código?\")"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "DZg4PO5eV6la",
-        "outputId": "77619167-99d0-4cb2-aba9-0a5bf798729e"
-      },
-      "execution_count": null,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "¿Qué está mal en el siguiente código?:\n"
-          ]
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "print (\"El error esta en la palabra primt debido a que es con n\")"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "dGhvBxsOWYPa",
-        "outputId": "44623e72-ee8e-4e98-b62f-4c4fd0d0d3db"
-      },
-      "execution_count": null,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "El error esta en la palabra primt debido a que es con n\n"
-          ]
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "print (\"¿En qué lugar del computador queda almacenada una variable, como en este caso “x”,después de ejecutar la siguiente línea de Python?:\")\n",
-        "print (\"x = 123\")"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "N0nuNd15W3Ab",
-        "outputId": "bee74d8e-ead2-4b6d-a04e-119ea304be5a"
-      },
-      "execution_count": 13,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
+            "¿Cuál es la función de la memoria secundaria en una computadora?\n",
+            "Almacenar informaciónn durante mucho tiempo, incluso después de ciclos de apagado y encendido\n",
+            "¿Qué es un programa?\n",
+            "Es un conjunto de instrucciones que indican como realizar algún tipo de cálculo\n",
+            "¿Cuál es la diferencia entre un compilador y un int´intérprete?\n",
+            "Un compilador traduce todo el código fuente a un archivo ejecutable antes de ejecutarlo, mientras que un intérprete traduce y ejecuta el código línea por línea en tiempo real.\n",
+            "¿Cuál de los siguientes contiene “codigo máquina”?\n",
+            "El interprete de python\n",
+            "¿Qué está mal en el siguiente código?\n",
+            "El error esta en la palabra primt debido a que es con n\n",
             "¿En qué lugar del computador queda almacenada una variable, como en este caso “x”,después de ejecutar la siguiente línea de Python?:\n",
-            "x = 123\n"
-          ]
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "print (\"En la memoria principal\")"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "TKxpktQTXeYu",
-        "outputId": "4dc19188-4a1e-4ba3-e5e7-8fac84db308c"
-      },
-      "execution_count": 15,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "En la memoria principal\n"
-          ]
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "print (\"¿Qué mostrará en pantalla el siguiente programa?:\")\n",
-        "print (\"x = 43\")\n",
-        "print (\"x = x + 1\")\n",
-        "print (\"print(x)\")"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "ULn47EXmXx8k",
-        "outputId": "33a3e524-f42e-46f7-f95a-3d09d17a2fb6"
-      },
-      "execution_count": 16,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
+            "x = 123\n",
+            "En la memoria principal\n",
             "¿Qué mostrará en pantalla el siguiente programa?:\n",
             "x = 43\n",
             "x = x + 1\n",
-            "print(x)\n"
-          ]
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "print (\"44\")"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "3qkVff-kYJm3",
-        "outputId": "e14c4de2-e175-4722-eb0c-6570f0c3a363"
-      },
-      "execution_count": 17,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "44\n"
-          ]
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "print (\"Explica cada uno de los siguientes conceptos usando un ejemplo de una capacidad humana:\")\n",
-        "print (\"1. Unidad central de procesamiento.\")\n",
-        "print (\"2. Memoria principal.\")\n",
-        "print (\"3. Memoria secundaria.\")\n",
-        "print (\"4. Dispositivos de entrada.\")\n",
-        "print (\"5. Dispositivos de salida.\")"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "6cyCRXa5YUMD",
-        "outputId": "997b1ba1-739c-4f3f-b942-5c9f6fbd3d23"
-      },
-      "execution_count": 20,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
+            "print(x)\n",
+            "44\n",
             "Explica cada uno de los siguientes conceptos usando un ejemplo de una capacidad humana:\n",
             "1. Unidad central de procesamiento.\n",
             "2. Memoria principal.\n",
             "3. Memoria secundaria.\n",
             "4. Dispositivos de entrada.\n",
-            "5. Dispositivos de salida.\n"
-          ]
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "print(\"-La unidad central de procesamiento es como el cerebro cuando resuelve algún problema\")\n",
-        "print (\"-La memoria principal es como la memoria a corto plazo, dónde mantienes información temporalmente\")\n",
-        "print (\"-la memoria secundaria es como la memoria a largo plazo ya que guarda información importante para recordarla después\")\n",
-        "print (\"-Dispositivo de entrada es como los ojos al recibir información del entorno\")\n",
-        "print (\"-Dispositivo de salida similar a nuestra boca al hablar\")"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "qMUagBv5Y70Q",
-        "outputId": "a7088929-566a-4126-a3f3-b11297069a67"
-      },
-      "execution_count": 23,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
+            "5. Dispositivos de salida.\n",
             "-La unidad central de procesamiento es como el cerebro cuando resuelve algún problema\n",
             "-La memoria principal es como la memoria a corto plazo, dónde mantienes información temporalmente\n",
             "-la memoria secundaria es como la memoria a largo plazo ya que guarda información importante para recordarla después\n",
             "-Dispositivo de entrada es como los ojos al recibir información del entorno\n",
-            "-Dispositivo de salida similar a nuestra boca al hablar\n"
-          ]
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "print (\"¿Cómo puedes corregir un “Error de sintaxis”?\")"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "6ZjRhlY0Y8Kk",
-        "outputId": "8675160c-51e6-4601-dc7f-55797b13ce96"
-      },
-      "execution_count": 19,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "¿Cómo puedes corregir un “Error de sintaxis”?\n"
-          ]
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "print (\"Para corregirlo hay que revisar el mensaje del error, identificar la línea del problema,verificando la sintaxis correcta y asi ajustar el codigo a las reglas del lenguaje \")"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "zPCQ9b-fY9VF",
-        "outputId": "fcc52efb-8345-479d-bb87-952f47d727d3"
-      },
-      "execution_count": 18,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
+            "-Dispositivo de salida similar a nuestra boca al hablar\n",
+            "¿Cómo puedes corregir un “Error de sintaxis”?\n",
             "Para corregirlo hay que revisar el mensaje del error, identificar la línea del problema,verificando la sintaxis correcta y asi ajustar el codigo a las reglas del lenguaje \n"
           ]
         }
+      ],
+      "source": [
+        "print (\"¿Cuál es la función de la memoria secundaria en una computadora?\")\n",
+        "print (\"Almacenar informaciónn durante mucho tiempo, incluso después de ciclos de apagado y encendido\")\n",
+        "\n",
+        "print (\"¿Qué es un programa?\")\n",
+        "print (\"Es un conjunto de instrucciones que indican como realizar algún tipo de cálculo\")\n",
+        "\n",
+        "print(\"¿Cuál es la diferencia entre un compilador y un int´intérprete?\")\n",
+        "print (\"Un compilador traduce todo el código fuente a un archivo ejecutable antes de ejecutarlo, mientras que un intérprete traduce y ejecuta el código línea por línea en tiempo real.\")\n",
+        "\n",
+        "print (\"¿Cuál de los siguientes contiene “codigo máquina”?\")\n",
+        "print (\"El interprete de python\")\n",
+        "\n",
+        "print (\"¿Qué está mal en el siguiente código?\")\n",
+        "print (\"El error esta en la palabra primt debido a que es con n\")\n",
+        "\n",
+        "print (\"¿En qué lugar del computador queda almacenada una variable, como en este caso “x”,después de ejecutar la siguiente línea de Python?:\")\n",
+        "print (\"x = 123\")\n",
+        "print (\"En la memoria principal\")\n",
+        "\n",
+        "print (\"¿Qué mostrará en pantalla el siguiente programa?:\")\n",
+        "print (\"x = 43\")\n",
+        "print (\"x = x + 1\")\n",
+        "print (\"print(x)\")\n",
+        "print (\"44\")\n",
+        "\n",
+        "print (\"Explica cada uno de los siguientes conceptos usando un ejemplo de una capacidad humana:\")\n",
+        "print (\"1. Unidad central de procesamiento.\")\n",
+        "print (\"2. Memoria principal.\")\n",
+        "print (\"3. Memoria secundaria.\")\n",
+        "print (\"4. Dispositivos de entrada.\")\n",
+        "print (\"5. Dispositivos de salida.\")\n",
+        "print(\"-La unidad central de procesamiento es como el cerebro cuando resuelve algún problema\")\n",
+        "print (\"-La memoria principal es como la memoria a corto plazo, dónde mantienes información temporalmente\")\n",
+        "print (\"-la memoria secundaria es como la memoria a largo plazo ya que guarda información importante para recordarla después\")\n",
+        "print (\"-Dispositivo de entrada es como los ojos al recibir información del entorno\")\n",
+        "print (\"-Dispositivo de salida similar a nuestra boca al hablar\")\n",
+        "\n",
+        "print (\"¿Cómo puedes corregir un “Error de sintaxis”?\")\n",
+        "print (\"Para corregirlo hay que revisar el mensaje del error, identificar la línea del problema,verificando la sintaxis correcta y asi ajustar el codigo a las reglas del lenguaje \")"
       ]
     }
   ]
